@@ -1,5 +1,5 @@
 # Insu Creation Assignment 
-video link:https://drive.google.com/file/d/1cf2-GVcGqm4fa2de5-PPyLeQRUWXMhHE/view?usp=drive_link
+depoly video link:https://drive.google.com/file/d/1cf2-GVcGqm4fa2de5-PPyLeQRUWXMhHE/view?usp=drive_link
 
 In the project directory, you can run:
 
