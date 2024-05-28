@@ -1,0 +1,112 @@
+.feature-card-grid-container {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  background-image: url("https://res.cloudinary.com/damoxc2du/image/upload/v1716794067/Rectangle_4_htb6op.png");
+}
+
+.feature-card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 25%;
+  position: relative;
+}
+
+.images-container {
+  position: relative;
+  height: 100px;
+  margin-bottom: 20px; 
+}
+
+.card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  margin: 0;
+}
+
+.ellipse-image {
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  gap: 0;
+  opacity: 1;
+  margin-left: 150px;
+}
+
+.group-image {
+  width: 30px;
+  height: 36.67px;
+  position: absolute;
+  top: 20px; 
+  left: 24px; 
+  gap: 0;
+  opacity: 1;
+  margin-left: 150px;
+}
+
+.ellipse-11-image {
+  width: 77px;
+  height: 77px;
+  position: absolute;
+  top: -5px;
+  left: 52px; 
+  gap: 0;
+  opacity: 1;
+  border: 1px solid transparent;
+  margin-left: 100px;
+}
+
+.main-heading {
+  font-family: 'Mulish', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 180.65px;
+  text-align: center;
+
+}
+
+.heading-with-bg {
+  background-image: url('https://res.cloudinary.com/damoxc2du/image/upload/v1716748072/Rectangle_20_gxpbsw.png');
+  width: 130px;
+  height: 38px;
+  border-radius: 50px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37.65px;
+  text-align: left;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: 680px;
+  gap: 0px;
+  opacity: 1;
+}

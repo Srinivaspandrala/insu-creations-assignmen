@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+.bg-container{
+  background-color: linear-gradient(180deg, rgba(137, 229, 145, 0.0325) 0%, rgba(137, 229, 145, 0.13) 50%, rgba(137, 229, 145, 0.0286) 100%)  ;
+}
+.contact-card {
+  background-color:antiquewhite(116, 16, 16);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1300px; 
+  margin: 50px auto;
+  padding: 20px;
+  position: relative;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: -400px;
+}
+
+.contact-form label {
+  margin-bottom: 15px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  width: 100%; 
+  color: black; 
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 300px; 
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box; 
+}
+
+.contact-form button {
+  width: 198px;
+  height: 60px;
+  background-color: black; 
+  color: white; 
+  border: none;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: -500px;
+  opacity: 1; 
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.image-1{
+  margin-left: 800px;  margin-top: 50px;
+
+}
+.image-2{
+  margin-left: 800px;  margin-top: 50px;
+
+}
+.image-3{
+  margin-left: 800px;  margin-top: 50px;
+
+}
+.image-4{
+  margin-left: 800px;
+  margin-top: px;
+  
+}
+.heading-with-bg-contact {
+  background-image: url('https://res.cloudinary.com/damoxc2du/image/upload/v1716748072/Rectangle_20_gxpbsw.png');
+  width: 130px;
+  height: 38px;
+  border-radius: 50px;
+  font-family: 'Mulish', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 37.65px;
+  text-align: left;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 480px;
+  left: 720px;
+  gap: 0px;
+  opacity: 1;
+}
+
+.contact-heading{
+
+font-family: Mulish;
+font-size: 30px;
+font-weight: 700;
+line-height: 37.65px;
+text-align: left;
+margin-left: 700px;
+margin-top: 90px;
+}

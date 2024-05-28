@@ -1,0 +1,95 @@
+.subscriber-container-hompage {
+  position: absolute;
+  width: 1052px;
+  height: 200px;
+  top: -100px;
+  left: 275px;
+  gap: 0px;
+  border-radius: 15px 0px 0px 0px;
+  
+  background-image: url('https://res.cloudinary.com/damoxc2du/image/upload/v1716698620/Rectangle_15_zdep0d.png');
+  background-size: cover;
+}
+
+.subscribe-btn-hompage  {
+  position: absolute;
+  width: 438px;
+  height: 60px;
+  top: 54px;
+  left: 500px;
+  gap: 0px;
+  border-radius: 50px;
+  background-image: url('https://res.cloudinary.com/damoxc2du/image/upload/v1716700975/Rectangle_16_fwokg9.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.subscribe-btn-hompage :hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.additional-btn-hompage  {
+  position: absolute;
+  width: 136px;
+  height: 61px;
+  top: 54px;
+  left: 800px;
+  gap: 0px;
+  border-radius: 50px;
+  opacity: 0px;
+  background-image: url('https://res.cloudinary.com/damoxc2du/image/upload/v1716702843/Rectangle_17_qpvkv6.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.additional-btn-hompage :hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.heading-hompage  {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 100px;
+
+}
+.bg-container-hompage {
+  background-image: url('https://res.cloudinary.com/damoxc2du/image/upload/v1716703464/Vector_15_pevyp7.png');
+  width: 200px;
+  height: 3px;
+  border-radius: 5px;
+  margin-top: 1px;
+  margin-left:115px;
+;
+
+}
+
+.additional-image-hompage  {
+
+  background-image: url('https://res.cloudinary.com/damoxc2du/image/upload/v1716703398/Vector_16_sczobg.png');
+  
+}
+.parag-hompage {
+  font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+width: 392px;
+height: 78px;
+top: 5475px;
+margin-left: 100px;
+gap: 0px;
+opacity: 0px;
+
+}

@@ -1,0 +1,105 @@
+
+.footer-container {
+  position: absolute;
+  width: 120%;
+  height: 50vh;
+  margin-top: 850px;
+  left: -12px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url('https://res.cloudinary.com/damoxc2du/image/upload/v1716664646/Rectangle_14_zhx0pe.jpg');
+  background-size: cover;
+}
+.policy-container{
+  background-image: url('https://res.cloudinary.com/damoxc2du/image/upload/v1716704069/Rectangle_18_zpavju.png');
+  background-size: cover;
+  width: 120%;
+height: 10vh;
+margin-top: 25vh;
+gap: 0px;
+opacity: 0px;
+
+}
+.address-container{
+  width: 287px;
+ height: 53px;
+ margin-left: 250px;
+ margin-top: 280px;
+ left: 198px;
+ gap: 10px;
+ font-family: Mulish;
+ font-size: 15px;
+line-height: 18px;
+text-align: left;
+opacity: 2px;
+color: #FFFFFF;
+
+}
+.copywrite-para{
+  color:#FFFFFF;
+  font-family: Mulish;
+font-size: 15px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+width: 287px;
+height: 18px;
+margin-top: 70px;
+margin-left: 180px;
+gap: 0px;
+opacity: 0px;
+}
+.pst-para{
+  color: #FFFFFF;
+  margin-left: 1000px;
+
+
+}
+.footer-links1{
+  line-height: 0px;
+  font-family: Mulish;
+font-size: 12px;
+font-weight: 600;
+line-height: 15px;
+margin-left: 1000px;
+margin-top: -200px;
+font-family: Mulish;
+font-size: 14px;
+font-weight: 600;
+color: aliceblue;
+
+
+}
+.footer-links2{
+  line-height: 0px;
+  font-family: Mulish;
+font-size: 12px;
+font-weight: 600;
+line-height: 15px;
+margin-left: 1200px;
+margin-top: -160px;
+font-family: Mulish;
+font-size: 14px;
+font-weight: 600;
+color: aliceblue;
+
+}
+.footer-links3{
+  line-height: 0px;
+  font-family: Mulish;
+font-size: 5px;
+font-weight: 600;
+line-height: 15px;
+margin-left: 1400px;
+margin-top: -246px;
+font-family: Mulish;
+font-size: 14px;
+font-weight: 600;
+color: aliceblue;
+;
+}
+.footer-link-bg{
+  width: 5px;
+  margin-left: -100px;
+  gap: 5px;
+}

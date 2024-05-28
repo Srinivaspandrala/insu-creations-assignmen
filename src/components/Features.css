@@ -1,0 +1,25 @@
+.h1{
+    font-family: Mulish;
+font-size: 35px;
+font-weight: 800;
+line-height: 25px;
+color: #000000;
+margin-left: 1300px;
+
+}
+.Heading-style{
+    width: 186px;
+  height: 25px;
+  top: 177px;
+  left: 1061px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Mulish;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 25px;
+  text-align: left;
+  color:#000000;
+  margin-left: 120vh;
+  
+  }
