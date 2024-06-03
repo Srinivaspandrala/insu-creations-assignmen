@@ -1,19 +1,10 @@
-
 import './Home.css'; 
 import HomepageModule1 from './Homepage-module1'; 
 import HomepageModule2 from './Homepage-module2'; 
 import HomepageModulee3 from './Homepage-module3';
 import HomepageModule4 from './Homepage-module4'; 
 
-
-import { useState } from 'react';
-
 const Home = () => {
-  const [images] = useState([
-    'https://res.cloudinary.com/damoxc2du/image/upload/v1716663235/hero_mock_1_xgmiqd.png', // Add more image URLs as needed
-    'https://res.cloudinary.com/damoxc2du/image/upload/v1716699693/rt_1_a6rbj8.png' // New image URL
-  ]);
-
   return (
     <div>
       <div className="home-container">
@@ -27,18 +18,19 @@ const Home = () => {
         </div>
 
         <div className="background-image right-image"></div>
-        {images.map((imageUrl, index) => (
-          <img
-            key={index}
-            className={`hero-image${index === images.length - 1 ? ' additional-image' : ''}`} // Add additional-image class conditionally
-            src={imageUrl}
-            alt={`Hero Section ${index + 1}`}
-          />
-        ))}
+        <img
+          className="hero-image"
+          src="https://res.cloudinary.com/damoxc2du/image/upload/v1716663235/hero_mock_1_xgmiqd.png"
+          alt="Hero Section 1"
+        />
+        <img
+          className="hero-image additional-image"
+          src="https://res.cloudinary.com/damoxc2du/image/upload/v1716699693/rt_1_a6rbj8.png"
+          alt="Hero Section 2"
+        />
         <div className="shape-11"></div> 
         <div className="new-background-image"></div> 
         <div className='bank-image'></div>
-        
       </div>
       <HomepageModule1 />
       <HomepageModule2 />
